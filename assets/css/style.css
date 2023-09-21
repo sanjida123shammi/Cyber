@@ -83,6 +83,7 @@ ul{
 	margin-top: 15px;
 }
 .header-media ul li{
+	border-radius: 2px;
 	list-style: none;
 	width: 24px;
 	height: 24px;
@@ -107,7 +108,6 @@ ul{
 }
 .header-media ul .instagram{
 	background-image: linear-gradient(to top right, #ffcd52, #fd5445, #d13c9a);
-	border-radius: 5px;
 }
 
 

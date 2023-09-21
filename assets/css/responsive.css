@@ -1,22 +1,106 @@
+@media (min-width: 1400px) and (max-width: 1800px){
+	.banner-section h1 { font-size: 42px; }
+	.banner { padding-top: 7%;	min-height: 560px; }
+	.price-row {width: 71%;    top: -9%; }
+}
+
+
 @media (min-width: 1200px) and (max-width: 1399px){
-	h2 { font-size: 31px; }
-	.navbar-expand-lg .navbar-nav .nav-link, .schedule, .price h2 span, .features li, .deal p, footer .navbar-nav .nav-link { font-size: 15px; }
+	.pricing-section, .deal-section { padding: 6% 0; }
 	.banner { padding-top: 6%; }
-	.banner-section h1 { padding-right: 15px;	font-size: 37px; }
-	.banner-section p { font-size: 17px;    margin: 15px 0 30px; }	
+	.banner-section h1 { padding-right: 25px;	font-size: 37px; }	
 	.price-row { width: 65%;    top: -9%; }
-	.price-head { padding: 11px 0;	font-size: 18px; }
-	.price { padding: 11px 0; }
-	.price p { margin-bottom: 8px;    font-size: 15px; }
-	.price h2 { font-size: 60px; }
-	.price h2 sup { font-size: 38px; }
-	.features li .fa-solid, .deal p .fa-solid { font-size: 12px; }	
-	.buttons a, footer p { font-size: 14px; }
 	.buttons button { margin-bottom: 26px; }
-	.deal-row { margin-top: 40%; }	
-	.test-content p { font-size: 16px; }
-	.test-content i.fa-solid { top: -22px;    left: -16px;    font-size: 55px; }
+	.deal-row { margin-top: 40%; }
+	.contact-section { padding: 5% 0 5%; }
 	.form-box .form-control, footer form .form-control { padding: 10px 15px; }
 	.google-map { height: 107%; }
 	footer .navbar-nav .nav-link { padding: 8px 20px }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.header-media ul li a .fa-brands { font-size: 16px;    line-height: 23px; }
+	.header-media ul li { width: 22px;    height: 22px; }
+	.header-media ul li a .fa-instagram { font-size: 18px; }
+	.banner { padding-top: 8%; }
+	.banner-section h1 { padding-right: 45px;    font-size: 35px; }
+	.price-row { width: 75%;    top: -8%; }
+	.buttons button { padding: 8px 35px; }
+	.deal-row { margin-top: 48%; }
+	.deal h2 { padding-right: 18%; }
+	.deal p { margin-bottom: 10px; }
+	.deal p.mb { margin-bottom: 28px; }
+	.deal-img img { margin-top: 50px; }
+	.pricing-section, .deal-section { padding: 7% 0; }
+	.testimonial-section { padding: 4% 0; }
+	.test-img { width: 22%; }
+	.contact-section { padding: 6% 0; }
+	footer { padding: 9% 0 4.5%; }
+}
+
+@media (max-width: 1399px){
+	h2 { font-size: 31px; }
+	.navbar-expand-lg .navbar-nav .nav-link, .schedule, .price p, .price h2 span, .features li, .deal p, footer .navbar-nav .nav-link { font-size: 15px; }	
+	.banner-section p { font-size: 17px;    margin: 15px 0 30px; }
+	.features li .fa-solid, .deal p .fa-solid { font-size: 12px; }
+	.price-head { padding: 11px 0;	font-size: 18px; }
+	.price { padding: 11px 0; }
+	.price p { margin-bottom: 8px; }
+	.price h2 { font-size: 60px; }
+	.price h2 sup { font-size: 38px; }
+	.buttons a, footer p { font-size: 14px; }	
+	.test-content p { font-size: 16px; }
+	.test-content i.fa-solid { top: -22px;    left: -16px;    font-size: 55px; }
+	footer h2 { font-size: 38px; }
+}
+
+/* Max width 991px */
+@media (max-width: 991px){
+	.navbar-toggler { border: none;	color: #fff;  font-size: 24px; }
+	.navbar-toggler:hover, .navbar-toggler:focus { box-shadow: none;    outline: none; }
+	.offcanvas { background: #003060 !important; }
+	.offcanvas-title{ font-size: 25px; }
+	.navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav .schedule { font-size: 14px; display: inline-block; }
+	.banner-section { background-position: left; }
+	.banner { min-height: 380px;		padding-top: 13%;		text-align: center; }
+	.banner-section h1 { padding: 0 45px;    font-size: 35px; }
+	.banner-section p { padding: 0 25%; }
+	.pricing-section, .deal-section { padding: 70px 0; }
+	.price-row { position: relative;	width: 100%; }
+	.price-table, .test-box { margin-bottom: 30px; }
+	.deal-row { margin-top: 30px; }
+	.deal h2 { padding-right: 0%;}
+	.deal-img img{ width: 100%; }
+	.pricing-section .deal-img img{ margin-top: 40px; }
+	.deal-section .deal-img img{ margin-bottom: 40px; }
+	.testimonial-section { padding: 50px 0 20px; }
+	.contact-section { padding: 60px 0 0; }
+	.contact-form { margin-right: 0; }
+	.google-map { position: relative;    width: 100%;    height: 300px;    margin-top: 30px;}
+	footer { padding: 55px 0 45px; }
+	.footer-menu img { display: block;	margin: 0 auto 30px; }
+	footer .navbar-nav { justify-content: center !important; }
+	footer p { text-align: center; }
+}
+
+@media (max-width: 767px){
+	.top-header{ padding: 10px 0; }
+	.header-contact { display: block; }
+	.contact-info { margin: 10px 0; }
+	.banner-section h1, .banner-section p { padding: 0; }
+	footer form {  display: block; }
+	footer form .form-control { width: 100%; }
+	footer form input.schedule { padding: 12px 20px;    width: 32%; }
+	footer .navbar-nav { gap: 2px; }
+	footer .navbar-nav .nav-link { font-size: 14px; }
+}
+
+@media (max-width: 575px){
+	.top-header{ display: none; }
+	.test-box { gap: 20px; }
+	.test-content { width: 74%; }
+	.form-box { display: block; }
+	.form-box .input-box { width: 100%; }
+	footer .navbar-nav { display: none; }
+	footer form input.schedule { width: 46%; }
 }
