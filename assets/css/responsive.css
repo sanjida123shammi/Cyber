@@ -1,0 +1,22 @@
+@media (min-width: 1200px) and (max-width: 1399px){
+	h2 { font-size: 31px; }
+	.navbar-expand-lg .navbar-nav .nav-link, .schedule, .price h2 span, .features li, .deal p, footer .navbar-nav .nav-link { font-size: 15px; }
+	.banner { padding-top: 6%; }
+	.banner-section h1 { padding-right: 15px;	font-size: 37px; }
+	.banner-section p { font-size: 17px;    margin: 15px 0 30px; }	
+	.price-row { width: 65%;    top: -9%; }
+	.price-head { padding: 11px 0;	font-size: 18px; }
+	.price { padding: 11px 0; }
+	.price p { margin-bottom: 8px;    font-size: 15px; }
+	.price h2 { font-size: 60px; }
+	.price h2 sup { font-size: 38px; }
+	.features li .fa-solid, .deal p .fa-solid { font-size: 12px; }	
+	.buttons a, footer p { font-size: 14px; }
+	.buttons button { margin-bottom: 26px; }
+	.deal-row { margin-top: 40%; }	
+	.test-content p { font-size: 16px; }
+	.test-content i.fa-solid { top: -22px;    left: -16px;    font-size: 55px; }
+	.form-box .form-control, footer form .form-control { padding: 10px 15px; }
+	.google-map { height: 107%; }
+	footer .navbar-nav .nav-link { padding: 8px 20px }
+}
