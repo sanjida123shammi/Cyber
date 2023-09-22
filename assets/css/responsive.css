@@ -1,3 +1,20 @@
+@media (min-width: 2300px){
+	h2 { font-size: 42px; }
+	.header-contact, .header-media, .test-img p { font-size: 16px; }
+	.price-row { width: 45%; }
+	.navbar-expand-lg .navbar-nav .nav-link, .price p, .price h2 span, .contact-form p, .test-content p { font-size: 20px; }
+	.banner-section h1 { font-size: 50px; }
+	.banner-section p, .price-head { font-size: 22px; }
+	.schedule, .features li, .deal p, .form-box input::placeholder, .form-box textarea::placeholder, footer form input::placeholder { font-size: 19px; }
+	.price h2 { font-size: 80px; }
+	.features li .fa-solid { font-size: 15px; }
+	.buttons a { font-size: 18px; }
+	.deal-img img { width: 100%; }
+	.form-box .form-control, footer form .form-control { padding: 18px 22px; }
+	footer .navbar-nav .nav-link { padding: 12px 26px;    font-size: 19px;}
+	.test-img h6, footer p { font-size: 17px; }
+}
+
 @media (min-width: 1400px) and (max-width: 1800px){
 	.banner-section h1 { font-size: 42px; }
 	.banner { padding-top: 7%;	min-height: 560px; }
@@ -24,7 +41,7 @@
 	.header-media ul li a .fa-instagram { font-size: 18px; }
 	.banner { padding-top: 8%; }
 	.banner-section h1 { padding-right: 45px;    font-size: 35px; }
-	.price-row { width: 75%;    top: -8%; }
+	.price-row { width: 75%;    top: -8%;	transform: translateX(-48%); }
 	.buttons button { padding: 8px 35px; }
 	.deal-row { margin-top: 48%; }
 	.deal h2 { padding-right: 18%; }
@@ -66,7 +83,7 @@
 	.banner-section h1 { padding: 0 45px;    font-size: 35px; }
 	.banner-section p { padding: 0 25%; }
 	.pricing-section, .deal-section { padding: 70px 0; }
-	.price-row { position: relative;	width: 100%; }
+	.price-row { position: relative;	width: 100%;	transform: translateX(-48%); }
 	.price-table, .test-box { margin-bottom: 30px; }
 	.deal-row { margin-top: 30px; }
 	.deal h2 { padding-right: 0%;}
@@ -103,4 +120,14 @@
 	.form-box .input-box { width: 100%; }
 	footer .navbar-nav { display: none; }
 	footer form input.schedule { width: 46%; }
+}
+
+@media (max-width: 425px){
+	.price-row { transform: translateX(-47%); }
+}
+
+@media (max-width: 375px){
+	.banner { padding-top: 18%; }
+	.banner-section h1 { font-size: 30px; }
+	.banner-section p { font-size: 16px; }
 }
