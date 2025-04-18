@@ -383,7 +383,7 @@ header{
 .google-map{
 	position: absolute;
 	width: 50%;
-	height: 110%;
+	height: 100%;
 	top: 0;
 	right: 0;
 }
